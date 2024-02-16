@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-15 10:46:03 p. m."/>
+        <attribute name="created" value="VXN1YXJpbztQQzsyMDI0LTAyLTE1OzA0OjQ0OjEzIHAuIG0uOzIzNTU="/>
+        <attribute name="edited" value="VXN1YXJpbztQQzsyMDI0LTAyLTE1OzEwOjQ2OjAzIHAuIG0uOzM7MjQ2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="carrera" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Alicia Escalante Sosa&quot;"/>
+            <assign variable="carrera" expression="&quot;Ingenieria en sistemas computacionales&quot;"/>
+            <output expression="&quot;Mi nombre es: &quot;" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;Mi carrera es: &quot;" newline="True"/>
+            <output expression="carrera" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
