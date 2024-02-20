@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 04:30:53 p. m."/>
+        <attribute name="created" value="VXN1YXJpbztQQzsyMDI0LTAyLTE5OzA0OjE2OjU4IHAuIG0uOzIzNjc="/>
+        <attribute name="edited" value="VXN1YXJpbztQQzsyMDI0LTAyLTE5OzA0OjMwOjUzIHAuIG0uOzE7MjQ2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hola, buen d&#237;a&quot;" newline="True"/>
+            <output expression="&quot;Por favor introduce tu nombre: &quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;Ahora, introduce tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;Anotado!&quot;" newline="True"/>
+            <output expression="&quot;Tu nombre es: &quot;" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;Tu edad es: &quot;" newline="True"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
